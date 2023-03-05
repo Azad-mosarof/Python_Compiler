@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Python Compiler"
+            android:textSize="25sp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/teal_200"
+            android:layout_gravity="center"/>
+
+            <Button
+                android:id="@+id/runBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Run"
+                android:layout_marginEnd="20dp"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#4CBF51"
+                android:gravity="end"
+                android:layout_gravity="end"/>
+
+        <EditText
+            android:id="@+id/pythonCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Write python code here"
+            android:layout_marginTop="10dp"
+            android:text="def main(x, y):\n\t\t\t\treturn x+y"
+            android:textColor="@color/purple_700"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/codeOutput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textSize="18sp"
+            android:textColor="#7C987C"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:text="Output will appare here"/>
+
+        <ImageView
+            android:id="@+id/plotImg"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+
+
+</ScrollView>
