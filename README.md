@@ -27,4 +27,4 @@ If you would like to contribute to the development of this app, please follow th
 
 ## License
 Copyright © 2023 [Azad Mosarof](https://github.com/Azad-mosarof).<br />
-This project is [MIT](https://github.com/Azad-mosarof/E_SHOP/blob/5729e60c33c367888dda1e84d08dc9efa89932c7/LICENSE.md) licensed.
+This project is [MIT](https://github.com/Azad-mosarof/Python_Compiler/blob/f4535bb90c7c950d49f52037cc99b9507bb730ba/LICENCE.MD) licensed.
